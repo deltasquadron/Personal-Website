@@ -8,6 +8,7 @@ body {
   font-size: 2rem;
   color: white;
   padding: 2em;
+  overflow-wrap: break-word;
 }
 
 .about-me-img {
@@ -50,6 +51,10 @@ h3 {
   padding: 1rem;
   margin: auto;
   text-align: center;
+}
+
+.flex-item p {
+  font-size: 1.5rem;
 }
 
 .navigation {
