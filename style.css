@@ -10,9 +10,20 @@ body {
   padding: 2em;
 }
 
+.about-me-img {
+  width: 40%;
+}
+
+ul {
+  text-align: left;
+}
+
 @media all and (max-width:425px) {
   body {
     padding: 0.3rem;
+  }
+  .about-me-img {
+    width: 100%;
   }
 }
 
@@ -117,11 +128,21 @@ h3 {
 
 .footer {
   background: transparent;
+  font-size: 1.2rem;
+  font-weight: lighter;
 }
 
 .main {
   text-align: left;
   background: transparent;
+  padding: 35px 10%;
+  font-size: 1.8rem;
+  font-weight: normal;
+}
+
+.main a {
+  color: #f5af19;
+  font-weight: bold;
 }
 
 .aside-1 {
@@ -135,8 +156,14 @@ h3 {
   text-align: left;
 }
 
+.aside-1 a, .aside-2 a {
+  color: #f5af19;
+  font-size: 1.2rem;
+}
+
 .aside-2 {
   background: transparent;
+  font-size: 1.5rem;
 }
 
 @media all and (min-width: 600px) {

@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="canonical" href="https://mihail.netlify.com" />
     <title>Михаил Абаджиев - Web Developer</title>
     <link rel="stylesheet" href="/style.css">
 </head>
@@ -17,7 +18,7 @@
                 <h1 class="flex-item">Здравей, свят</h1>
             </div>
             <div class="flex-container">
-                <h3 class="flex-item">Михаил Абаджиев - Front-end Developer</h3>
+                <h3 class="flex-item">Михаил Абаджиев - Web Developer</h3>
             </div>
             <ul class="navigation">
                 <li><a href="/index.html">Начало</a></li>
@@ -27,11 +28,24 @@
             </ul>
         </header>
         <article class="main">
-            <p>Pellentesquegestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+            <p>Здравейте, благодаря за отделеното време да разгледате личния ми сайт. :) Тук съм изброил някои от проектите, по които съм работил и кратка информация за себе си.</p>
         </article>
-        <aside class="aside aside-1">Aside 1</aside>
-        <aside class="aside aside-2">Aside 2</aside>
-        <footer class="footer">Footer</footer>
+        <aside class="aside aside-1">
+            <h4>Социални профили</h4>
+            <a href="https://www.linkedin.com/in/mihail-abadzhiev/">LinkedIn</a>
+            <a href="https://www.facebook.com/profile.php?id=100000507368638">Facebook</a>
+            <a href="https://twitter.com/alpha_squadron">Twitter</a>
+
+        </aside>
+        <aside class="aside aside-2">
+                <h4>Лични проекти</h4>
+                <p><a href="https://smalltimer.netlify.com/">Small Timer (JS)</a></p>
+                <p><a href="https://morski-shah.netlify.com/">Tic Tac Toe (React)</a></p>
+        </aside>
+        <footer class="footer">©<span id="year"></span> Всички права запазени</footer>
+        <script>
+            document.getElementById("year").innerHTML = new Date().getFullYear();
+        </script>
     </div>
 </body>
 

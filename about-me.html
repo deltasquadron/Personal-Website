@@ -5,15 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>За мен</title>
+    <link rel="canonical" href="https://mihail.netlify.com/about-me.html" />
+    <title>За мен | Михаил Абаджиев - Web Developer</title>
     <link rel="stylesheet" href="/style.css">
 </head>
 
 <body>
-    <div id="swup1" class="wrapper transition-fade">
+    <div class="wrapper">
         <header class="header">
             <div class="flex-container">
+                <img class="flex-item portrait-image" src="/img/mihail.abadzhiev.jpg" width="200" height="200">
                 <h1 class="flex-item">За мен</h1>
+            </div>
+            <div class="flex-container">
+                <h3 class="flex-item">Михаил Абаджиев - Web Developer</h3>
             </div>
             <ul class="navigation">
                 <li><a href="/index.html">Начало</a></li>
@@ -23,17 +28,34 @@
             </ul>
         </header>
         <article class="main">
-            <p>Pellentesquegestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+               <div class="flex-container">
+                   <p>Извън работа се старая да прекарвам повече време в активни дейности, но често може да ме намерите и вкъщи с книга в ръка и котка в скута. :)</p>
+                   <img class="flex-item about-me-img" src="/img/snowboard1.JPG" alt="">
+                   <img class="flex-item about-me-img" src="/img/snowboard2.JPG" alt="">
+                   <img class="flex-item about-me-img" src="/img/running.jpg" alt="">
+                   <img class="flex-item about-me-img" src="/img/kiev.JPG" alt="">
+                   <img class="flex-item about-me-img" src="/img/greece.JPG" alt="">
+                   
+               </div>
+                
         </article>
         <aside class="aside aside-1">
-            <ul>
-                <li>Образование</li>
-                <li>Работа</li>
-                <li>Интереси</li>
-            </ul>
+            <h4>Социални профили</h4>
+            <a href="https://www.linkedin.com/in/mihail-abadzhiev/">LinkedIn</a>
+            <a href="https://www.facebook.com/profile.php?id=100000507368638">Facebook</a>
+            <a href="https://twitter.com/alpha_squadron">Twitter</a>
+
         </aside>
-        <aside class="aside aside-2">Aside 2</aside>
-        <footer class="footer">Footer</footer>
+        <aside class="aside aside-2">
+                <h4>Лични проекти</h4>
+                <p><a href="https://smalltimer.netlify.com/">Small Timer (JS)</a></p>
+                <p><a href="https://morski-shah.netlify.com/">Tic Tac Toe (React)</a></p>
+                
+        </aside>
+        <footer class="footer">©<span id="year"></span> Всички права запазени</footer>
+        <script>
+            document.getElementById("year").innerHTML = new Date().getFullYear();
+        </script>
     </div>
 </body>
 
