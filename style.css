@@ -13,6 +13,7 @@ body {
 
 .about-me-img {
   width: 40%;
+  height: auto;
 }
 
 ul {
