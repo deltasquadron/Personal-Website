@@ -24,6 +24,7 @@ ul {
   body {
     padding: 0.3rem;
   }
+
   .about-me-img {
     width: 100%;
   }
@@ -152,6 +153,12 @@ h3 {
   font-weight: normal;
 }
 
+@media (max-width: 768px) {
+  .main {
+    font-size: 1.4rem;
+  }
+}
+
 .main a {
   color: #f5af19;
   font-weight: bold;
@@ -168,7 +175,8 @@ h3 {
   text-align: left;
 }
 
-.aside-1 a, .aside-2 a {
+.aside-1 a,
+.aside-2 a {
   color: #f5af19;
   font-size: 1.2rem;
 }
